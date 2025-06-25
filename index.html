@@ -1,31 +1,15 @@
-<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>나의 첫 웹페이지</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        h1 { color: #4CAF50; }
-        .container { max-width: 700px; margin: auto; }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            background: #4CAF50;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-        .btn:hover { background: #388E3C; }
-    </style>
+    <title>문자 자동 실행</title>
+    <script>
+        window.onload = function() {
+            window.location.href = "sms:01095903401?&body=[2] 텐베거 급등주 추천방 입장 부탁드립니다.^^";
+        };
+    </script>
 </head>
 <body>
-    <div class="container">
-        <h1>안녕하세요!</h1>
-        <p>나의 첫 웹페이지에 오신 것을 환영합니다.</p>
-        <a class="btn" href="sms:010-9590-3401?body=급등주 신청 1">문자 보내기</a>
-    </div>
+    <p>텐베거 종목으로 부자되기 첫걸음. 문자 메시지 창이 자동으로 열립니다.</p>
 </body>
 </html>
